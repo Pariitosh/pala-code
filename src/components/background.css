@@ -1,0 +1,16 @@
+
+.bg img{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}
+.blurbg img{
+    filter: blur(10px);
+    border: 10px solid black;
+    position: fixed;
+}
+.blurbg img{
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+}

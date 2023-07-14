@@ -1,0 +1,119 @@
+.box1,.box2,.box3,.box4,.box5,.box6
+,.box7,.box8,.box9,.box10,.box11,.box12,.box13
+,.box14,.box15{
+    height: 23vh;
+    width: 18vw;
+    background-color: black;
+    position: relative;
+    gap: 2vw;
+    box-shadow: 0 0.5em 2em -0.4em black;
+}
+.boxes img{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.taskleft h{
+    color: white;
+    font-family: rubik;
+    font-size: 3.5vw;
+    left: 1vw;
+    position: relative;
+    top: 2vh;
+
+}
+.taskleft p{
+    color: white;
+    font-family: rubik;
+    font-size: 3.5vw;
+    position: relative;
+    left: 6vw;
+    top: 4vh;
+}
+.tint12{
+    background-image: linear-gradient(to right, #141f30, #062833, #093030, #1e3529, #333924);
+    opacity: 0.8;
+    height: 167vh;
+    width: 100%;
+    position: absolute;
+}
+.row1{
+    position: relative;
+    top: -22vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.row2{
+    position: relative;
+    top: -17vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.row3{
+    position: relative;
+    top: -12vh;
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+.mainimage{
+    left: 30vw;
+    top: 5vh;
+    height: 50vh;
+    width: 40vw;
+    position: relative;
+    border: 5px solid rgb(0, 0, 0);
+}
+.first h{
+    color: white;
+    position: relative;
+    font-size: 3.5vw;
+    font-family: rubik;
+    font-weight: 900;
+    left: 22vw;
+    text-shadow: 10px 10px 2px black;
+}
+.mainimage img{
+    width: 100%;
+    height: 100%;
+}
+.box1:hover,.box2:hover,.box3:hover,.box4:hover,.box5:hover,
+.box6:hover,.box7:hover,.box8:hover,.box9:hover,.box10:hover,
+.box11:hover,.box12:hover,.box13:hover,.box14:hover,.box15:hover,
+.box1:focus, .box2:focus,.box3:focus,.box4:focus,.box5:focus
+,.box6:focus, .box7:focus,.box8:focus,.box9:focus,.box10:focus
+,.box1:focus, .box12:focus,.box13:focus,.box14:focus,.box15:focus{
+box-shadow: 0 0.5em 2em -0.4em var(--hover);
+  transform: translateY(-0.40em);
+  transition: 0.1s;
+}
+.box1,.box2,.box3,.box4,.box5,
+.box6,.box7,.box8,.box9,.box10,
+.box11,.box12,.box13,.box14,.box15 {
+    --color: #ffa260;
+    --hover: #dae44c;
+
+  }
+  .boxes p{
+    cursor: pointer;
+    color: white;
+    bottom: 6vh;
+    left: 0.5vw;
+    font-weight: 800;
+    font-size: 2vw;
+    font-family:rubik;
+    position: relative;
+    text-shadow: 1px 1px 2px black;
+  }
+  .taskleft{
+    height: 30vh;
+    width: 15vw;
+    left: 77vw;
+top: -36vh;
+border-radius: 20px;
+    background-color: #0e0e22;
+    position: relative;
+    
+  }

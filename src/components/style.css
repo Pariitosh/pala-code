@@ -1,0 +1,75 @@
+
+.menu{
+    height:100vh;
+    width: 100vw;
+    
+background-color: black;
+    display: flex;
+    opacity: 0.6;
+}
+
+.Modes ul{
+    margin-top: 25vh;
+}
+.Modes li{
+color: rgb(0, 0, 0);
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+list-style-type: none;
+font-size:6vh;
+margin-top: 1vh;
+text-decoration: none;
+}
+.menu {
+    position: relative;
+    
+}
+.menu li{
+    list-style-type: none;
+    font-size: 10vh;
+    text-decoration: none;
+    padding: 1vh;
+    font-weight: 800;
+    z-index: 1;
+   
+    
+    
+}
+.menu ul{
+    margin-top: 22vh;
+    margin-left: 2vw;
+}
+
+.test{
+    background-color: #062833;
+    height: 100vh;
+    width: 100vw;
+    object-fit: cover;
+}
+.navbar{
+    width: 100%;
+    height: 8vh;
+    background-color: black;
+}
+.testtt {
+    height:500px;
+    width: 500px;
+    color: black;
+    background-color: yellow;
+    
+}
+.menu ul li:hover{ 
+    transform: scale(1.2);
+    transition: 0.3s;
+}
+.navbar img{
+    height: 6vh;
+    width: 15vh;
+    margin-left: 1vh;
+    margin-bottom: 2vh;
+}
+.logoname{
+    color: #0e918c;
+margin-right: 43vw;
+font-size: 40px;
+font-family: cursive;
+}
