@@ -1,7 +1,7 @@
 {
   "name": "PalaGuesser",
   "version": "1",
-  "homepage": "https://pariitosh.github.io/Pala/",
+  
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
